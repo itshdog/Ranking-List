@@ -10,7 +10,7 @@ function List() {
             console.log("Error: name input is not valid. No changes made");
             return;
         }
-        if(item.rank == null || item.rank == '' || item.rank > 10 || item.rank < 0) {
+        if(item.rank === null || item.rank === '' || item.rank > 10 || item.rank < 0) {
             console.log("Error: rank input is not valid. No changes made");
             return;
         }
