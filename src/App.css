@@ -38,7 +38,8 @@ h1 {
 }
 
 .drink-input {
-  padding: 14px 32px 14px 16px;
+  font-size: 20px;
+  padding: 0 10px;
   border-radius: 4px 0 0 4px;
   border: 2px solid #5d0cff;
   outline: none;
