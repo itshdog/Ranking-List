@@ -34,7 +34,7 @@ function List() {
             console.log("Error: name input is not valid. No changes made");
             return;
         }
-        if(newItem.rank == null || newItem.rank == '') {
+        if(newItem.rank === null || newItem.rank === '') {
             console.log("Error: rank input is not valid. No changes made");
             return;
         }
