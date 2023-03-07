@@ -41,6 +41,7 @@ function List() {
         }
 
         setItems(prev => prev.map(e => (e.id === itemId ? newItem : e)));
+        localStorage.setItem('items', JSON.stringify(items));
     };
 
     return (
