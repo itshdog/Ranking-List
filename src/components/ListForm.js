@@ -31,7 +31,7 @@ function ListForm(props) {
             (<>
                 <input
                     type='text'
-                    placeholder="Drink"
+                    placeholder="Name"
                     value={name}
                     name="text"
                     className="drink-input edit"
@@ -40,7 +40,7 @@ function ListForm(props) {
                 <div className="range-slider edit">
                     <input
                         type='number'
-                        placeholder="1-10"
+                        placeholder="0"
                         value={rank}
                         className="drink-rank"
                         onChange={rankChange}
@@ -54,7 +54,7 @@ function ListForm(props) {
             ) : (<>
                 <input
                     type='text'
-                    placeholder="Drink"
+                    placeholder="Name"
                     value={name}
                     name="text"
                     className="drink-input"
@@ -63,7 +63,7 @@ function ListForm(props) {
                 <div className="range-slider">
                     <input
                         type='number'
-                        placeholder="1-10"
+                        placeholder="0"
                         value={rank}
                         className="drink-rank"
                         onChange={rankChange}

@@ -20,6 +20,7 @@ function List() {
         newItems.sort((a, b) => (b.rank - a.rank));
 
         setItems(newItems);
+        localStorage.setItem('items', JSON.stringify(newItems));
         // console.log(item, ...items);
     };
 

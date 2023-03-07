@@ -7,18 +7,15 @@
 }
 
 body {
-  background: linear-gradient(
-    90deg,
-    rgba(48, 16, 255, 1) 0%,
-    rgba(100, 115, 255, 1) 100%
-  );
+  background: rgba(100, 115, 255, 1)
 }
 
 .App {
   display: flex;
   flex-direction: column;
   justify-content: start;
-  width: 520px;
+  width: 90%;
+  max-width: 520px;
   min-height: 600px;
   background: #161a2b;
   text-align: center;
@@ -62,7 +59,7 @@ h1 {
   width: fit-content;
   background: transparent;
   color: white;
-  padding: 10px 10px 10px 14px;
+  padding: 10px 5px;
   width: fit-content;
 }
 
@@ -71,12 +68,24 @@ h1 {
   outline: none;
   border: none;
   color: white;
-  font-size: 18px;
-  width: fit-content;
+  font-size: 20px;
+  width: 50px;
+}
+
+input[type=number] {
+  -moz-appearance: textfield !important;
+  text-align: right;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+  margin: 0 !important;
 }
 
 .range-slider .range-slider-value {
   width: 50px;
+  padding-right: 5px;
 }
 
 .range-slider.edit {
