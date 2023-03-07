@@ -3,7 +3,7 @@ import ListForm from './ListForm'
 import ListWrapper from './ListWrapper'
 
 function List() {
-    const [items, setItems] = useState([])
+    const [items, setItems] = useState(JSON.parse(localStorage.getItem('items')))
 
     const addItem = item => {
         if(!item.text || /^\s*$/.test(item.text)) {
