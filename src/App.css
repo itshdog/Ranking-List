@@ -37,6 +37,7 @@ h1 {
 }
 
 .item-text {
+  width: calc(100% - 80px);
   text-align: left;
 }
 
@@ -180,8 +181,7 @@ input::-webkit-inner-spin-button {
 .item-info {
   display: inline-block;
   text-align: center;
-  min-width: 90px;
-  width: fix-content;
+  width: 80px;
   padding-right: 5px;
 }
 
