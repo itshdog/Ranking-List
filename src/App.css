@@ -36,6 +36,10 @@ h1 {
   font-size: 24px;
 }
 
+.item-text {
+  text-align: left;
+}
+
 .list-form {
   margin-bottom: 20px;
   display: flex;
@@ -136,7 +140,6 @@ input::-webkit-inner-spin-button {
   font-size: 24px;
   display: flex;
   justify-content: space-between;
-  align-items: right;
   margin: 4px auto;
   color: #fff;
   background: linear-gradient(
@@ -147,7 +150,7 @@ input::-webkit-inner-spin-button {
 
   padding: 10px 0 10px 10px;
   border-radius: 5px;
-  width: 90%;
+  width: 95%;
 }
 
 .item-row:nth-child(4n + 1) {
@@ -196,11 +199,6 @@ input::-webkit-inner-spin-button {
   cursor: pointer;
   display: inline-block;
   color: white;
-  margin: 0 0 0 10px;
-}
-
-.delete-icon {
-  margin: 0 5px;
 }
 
 .edit-icon {

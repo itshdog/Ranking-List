@@ -24,7 +24,7 @@ const ListWrapper = ({items, editItem, removeItem}) => {
 
     return items.sort((a, b) => (b.rank - a.rank)).map((item, index) => (
         <div className={'item-row'} key={index}>
-            <div key={item.id}>
+            <div key={item.id} className="item-text">
                 {item.text}
             </div>
             <div className="item-info">
