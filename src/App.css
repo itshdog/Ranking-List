@@ -24,6 +24,12 @@ body {
   padding-bottom: 32px;
 }
 
+@media(max-width: 767px) {
+  .App {
+    margin: 20px auto!important;
+  }
+}
+
 h1 {
   margin: 32px 0;
   color: #fff;
